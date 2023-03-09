@@ -1,5 +1,5 @@
 create table turma (
-	Horario Time (5) not null,
+    Horario Time (5) not null,
     Vagas INT (2) not null,
     Nome_aluno Varchar (40) not null,
     Nome_curso Varchar (50) not null,
