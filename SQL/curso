@@ -1,0 +1,6 @@
+create table curso (
+    Nome_curso Varchar (50) not null,
+    Datadocurso datetime (6) not null,
+    Preço INT (10) not null,
+    primary Key (Nome_curso)
+);

@@ -1,0 +1,7 @@
+create table unidade (
+	Nome_unidade Varchar (50) not null,
+    Endereço Varchar (100) not null,
+    Telefone Varchar (15) not null,
+    Email Varchar (50) not null,
+    primary Key (Nome_unidade)
+);

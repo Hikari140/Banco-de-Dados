@@ -1,0 +1,13 @@
+create table turma (
+	Horario Time (5) not null,
+    Vagas INT (2) not null,
+    Nome_aluno Varchar (40) not null,
+    Nome_curso Varchar (50) not null,
+    Nome_unidade Varchar (50) not null,
+    Nome_professor Varchar (50) not null,
+    primary key (Horario, Vagas),
+    foreign key (Nome_aluno) references aluno (Nome_aluno),
+    foreign key (Nome_curso) references curso (Nome_curso),
+    foreign key (Nome_unidade) references unidade (Nome_unidade),
+    foreign key (Nome_professor) references professor (Nome_professor)
+    );

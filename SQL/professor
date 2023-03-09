@@ -1,0 +1,11 @@
+create table professor (
+	Nome_professor Varchar (50) not null,
+    Idade tinyint (3) not null,
+    CPF Char (12),
+    Sexo Char (10),
+    Endereço Varchar (100) not null,
+    Email Varchar (50) not null,
+    Telefone Varchar (15) not null,
+    Formação Varchar (100) not null,
+    primary Key (Nome_professor)
+    );

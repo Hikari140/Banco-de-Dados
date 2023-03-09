@@ -1,0 +1,10 @@
+create table aluno (
+	Nome_aluno Varchar (40) not null,
+    Idade Tinyint (3) not null,
+    CPF Char (12),
+    Sexo Char (10),
+    Endereço Varchar (100) not null,
+    Email Varchar (50) not null,
+    Telefone Varchar (15),
+    primary Key (Nome_aluno)
+);
